@@ -2,7 +2,6 @@
 // Created by Tiankai on 2018/12/7.
 //
 
-#include "balanced_tree.h"
 #include <stdbool.h>
 #include <stdlib.h>
 #include <math.h>
@@ -10,11 +9,11 @@
 #define MAX(x, y) ( x>y? x:y)
 
 
-typedef struct Node{
+typedef struct TreeNode{
     int value;
     struct TreeNode* left;
     struct TreeNode* right;
-}TreeNode;
+} TreeNode;
 
 int depth(TreeNode* root) {
     if (root == NULL) {
