@@ -67,11 +67,11 @@ struct TreeNode* buildTree(int* preorder, int preorderSize, int* inorder, int in
     return pRoot;
 }
 
-int main(int argc, char *argv[]) {
-    int preOrder[6] = {3,9,20,15,7};
-    int inOrder[6] = {9,3,15,20,7};
-    TreeNode *pRoot = NULL;
-    buildTree(preOrder, 6, inOrder, 6);
-    return 0;
-}
+//int main(int argc, char *argv[]) {
+//    int preOrder[6] = {3,9,20,15,7};
+//    int inOrder[6] = {9,3,15,20,7};
+//    TreeNode *pRoot = NULL;
+//    buildTree(preOrder, 6, inOrder, 6);
+//    return 0;
+//}
 

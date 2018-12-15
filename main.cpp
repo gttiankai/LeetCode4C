@@ -6,4 +6,5 @@ int main() {
     char* pointer = array;
     std::cout << sizeof(array);
     std::cout << sizeof(pointer);
+    int* pointer = NULL;
 }
