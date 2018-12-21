@@ -8,7 +8,8 @@ add_executable(LeetCode
 
         tree/rebuild_tree.c
         tree/balanced_tree.c
-        array/find_second_smallest_elements.cpp
+        array/find_second_smallest_elements.c
+        array/find_first_and_last_position.c
         sort/sort_list.c
         binary_search_tree/validate_binaray_search_tree.c
         tree/binary_tree_inorder_traversal_94.c)
