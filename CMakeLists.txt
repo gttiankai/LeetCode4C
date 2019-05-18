@@ -12,4 +12,4 @@ add_executable(LeetCode
         array/find_first_and_last_position.c
         sort/sort_list.c
         binary_search_tree/validate_binaray_search_tree.c
-        tree/binary_tree_inorder_traversal_94.c)
+        tree/binary_tree_inorder_traversal_94.c tree/black_red_tree.c)
