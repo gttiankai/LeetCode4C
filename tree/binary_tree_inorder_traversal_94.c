@@ -73,26 +73,26 @@ int *inorderTraversal(struct TreeNode *root, int *returnSize) {
     return result;
 }
 
-int main(int argc, char* argv[]) {
-    struct TreeNode node1;
-    struct TreeNode node2;
-    struct TreeNode node3;
-    node1.val = 1;
-    node1.left = NULL;
-    node1.right = &node2;
-
-    node2.val = 2;
-    node2.left = &node3;
-    node2.right = NULL;
-
-    node3.val = 3;
-    node3.left = NULL;
-    node3.right = NULL;
-    int returnSize = 0;
-    int* result ;
-    result = inorderTraversal(&node1, &returnSize);
-    for (int i = 0; i < returnSize ; ++i) {
-        printf("%d ", result[i]);
-    }
-}
+//int main(int argc, char* argv[]) {
+//    struct TreeNode node1;
+//    struct TreeNode node2;
+//    struct TreeNode node3;
+//    node1.val = 1;
+//    node1.left = NULL;
+//    node1.right = &node2;
+//
+//    node2.val = 2;
+//    node2.left = &node3;
+//    node2.right = NULL;
+//
+//    node3.val = 3;
+//    node3.left = NULL;
+//    node3.right = NULL;
+//    int returnSize = 0;
+//    int* result ;
+//    result = inorderTraversal(&node1, &returnSize);
+//    for (int i = 0; i < returnSize ; ++i) {
+//        printf("%d ", result[i]);
+//    }
+//}
 
